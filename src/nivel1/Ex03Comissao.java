@@ -1,18 +1,9 @@
-/*
-* Faça um programa para pagamento de comissão de vendedores de peças, levando-se em consideração que sua
-* comissão será de 5% do total da venda e que você tem os seguintes dados:
-* - Identificação do vendedor
-* - Código da peça
-* - Preço unitário da peça
-* - Quantidade vendida
- */
-
 package nivel1;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Ex03 {
+public class Ex03Comissao {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
