@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Ex37CalculadoraComMenu {
 
     public static void main(String[] args) {
-        // Locale.US para aceitar numeros com ponto (ex: 6.0)
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
         String resposta;
 
