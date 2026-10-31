@@ -12,7 +12,6 @@ public class Ex39ParImparSinal {
             System.out.print("Digite um numero inteiro: ");
             int numero = sc.nextInt();
 
-            // Em Java, -7 % 2 resulta em -1, por isso a comparacao e feita com 0
             String paridade = (numero % 2 == 0) ? "PAR" : "IMPAR";
 
             String sinal;

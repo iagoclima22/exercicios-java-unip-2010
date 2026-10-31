@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Ex38SalarioOperario {
 
     public static void main(String[] args) {
-        // Locale.US para aceitar e imprimir numeros com ponto
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 
         final double VALOR_HORA = 10.0;
